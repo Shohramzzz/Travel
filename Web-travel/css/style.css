@@ -1,0 +1,536 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  *,*::before,*::after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  :focus,:active{outline: none;}
+  a:focus,a:active{outline: none;}
+  
+  nav,footer,header,aside{display: block;}
+  
+  html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 16px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  input,button,textarea{font-family: inherit;}
+  
+  input::-ms-clear{display: none;}
+  button{cursor: pointer;}
+  button::-moz-focus-inner{padding: 0;border: 0;}
+  a, a:visited{text-decoration: none;}
+  a:hover{text-decoration: none;}
+  ul li{list-style: none;}
+  img{vertical-align: top;}
+  
+  h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400}
+
+  body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f1f1f1;
+  }
+  /*Header Nav*/
+  header {
+    background-image: url(https://cdnn21.img.ria.ru/images/148581/50/1485815015_0:300:5760:3540_1920x0_80_0_0_e13386257fc9729e64e643cd2906ec1b.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+  }
+  .container{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .logo {
+    padding-top: 25px;
+    width: 130px;
+    margin: 0 auto;
+    position: relative;
+    opacity: 0.9;
+  }
+  .logo:hover {
+    opacity: 1;
+  }
+  .logo__imgicon {
+    width: 130px;
+  }
+  .logo__name {
+    font-family: 'Square Peg', cursive;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    bottom: 50px;
+  }
+  .tsurix__city {
+    font-size: 60px;
+    font-family: 'Square Peg', cursive;
+    font-style: italic;
+    color: #ffffffee;
+    text-align: center;
+    position: relative;
+    top: 530px;
+    right: 150px;
+  }
+  .navcontainer {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    border-bottom: 1px solid #77717170;
+    position: relative;
+  }
+  .navbar {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px 0px;
+    position: sticky;
+    top: 0;
+  }
+  .list__navbar {
+  
+  }
+  .list__navbar li {
+    display: inline;
+    font-size: 20px;
+    font-family: 'Square Peg', cursive;
+    padding: 0 0 0 55px;
+  }
+  a {
+    color: #111010;
+  }
+  a:hover {
+    color: #b80c0cab;
+    box-shadow: 0px 0px 0px ;
+  }
+  a:active {
+    color: #b80c0cab;
+    box-shadow: 0px 1px 1px silver ;
+  }
+  
+  .Switzerland-info {
+    margin-top: 50px;
+  }
+  .switzerland-info__h2 {
+    margin-top: 20px;
+  }
+
+  /*MAIN*/
+  .maincontainer {
+    font-size: 18px;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 30px;
+  }
+  .switzerland-info__h1 {
+    font-size: 30px;
+    color: #445161;
+  }
+  .switzerland-info__h2 {
+    font-size: 30px;
+    color: #445161;
+  }
+  .img {
+    display: inline;
+  }
+  .img__village{
+    width: 595px;
+    height: 570px;
+    padding: 5px 0 0 0;
+  }
+  .img__mountainlake{
+    width: 595px;
+    height: 570px;
+    padding: 5px 0 0 0;
+  }
+  .img__trainvillage{
+    width: 595px;
+    height: 570px;
+    padding: 5px 0 0 0;
+  }
+  .img__waterfallsvillge{
+    width: 595px;
+    height: 570px;
+    padding: 5px 0 0 0;
+  }
+  .img__greenplace{
+    width: 595px;
+    height: 570px;
+    padding: 5px 0 0 0;
+  }
+  .img__greenvillage{
+    width: 600px;
+    height: 570px; 
+    padding: 5px 0 0 5px;
+  }
+
+  .title {
+    font-family: 'Square Peg', cursive;
+    border: 5px solid rgba(255, 255, 255, 0.842);
+    background: url(https://switzerland-tour.com/images/sliders/excurs/titlis-top/Eugenisee-in-Engelberg-Switzerland.jpg) center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 50px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 100px;
+    line-height: 60px;
+    text-align: center;
+  }
+  .box-info__title {
+    background-color: rgba(0, 0, 0, 0.24);
+    color: #ffffffef;
+    padding: 250px 50px 170px 50px;
+  }
+  .reason {
+    margin-top: 100px;
+  }
+  h3 {
+    font-size: 35px;
+    color: #445161;
+    line-height: 50px;
+  }
+  h3::before {
+    content: "";
+    font-size: 30px;
+    color: #445161;
+    font-weight: 500;
+    padding: 0 5px 0 0;
+  }
+  .reason > img {
+    width: 100%;
+  }
+  .title-reason__img {
+    height: 720px;
+  }
+  .title-reason10__img {
+    height:670px;
+  }
+  
+  .title-reason1::before {
+    content: "1.";
+  }
+  .title-reason2::before {
+    content: "2.";
+  }
+  .title-reason3::before {
+    content: "3.";
+  }
+  .title-reason4::before {
+    content: "4.";
+  }
+  .title-reason5::before {
+    content: "5.";
+  }
+  .title-reason6::before {
+    content: "6.";
+  }
+  .title-reason7::before {
+    content: "7.";
+  }
+  .title-reason8::before {
+    content: "8.";
+  }
+  .title-reason9::before {
+    content: "9.";
+  }
+  .title-reason10::before {
+    content: "10.";
+  }
+
+  /*FOOTER*/
+  .footer {
+    max-width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+  }
+  .footer__icon {
+  }
+
+  /*Responsive desing*/
+  @media screen and (max-width: 1200px) {
+    .navcontainer {
+      width: 100%;
+    }
+    
+    .maincontainer {
+      width: 1140px;
+    }
+    .tsurix__city {
+      font-size: 45px;
+    }
+    .list__navbar {
+      text-align: center;
+    }
+    /*IMG RESPONSIVE*/
+    .img__village {
+      width: 49.6%;
+      height: 440px;
+      padding: 5px 0 0 0;
+    }
+    .img__mountainlake {
+      width: 49.6%;
+      height: 440px;
+      padding: 5px 0 0 0;
+  }
+    .img__trainvillage{
+      width: 49.6%;
+      height: 440px;
+      padding: 5px 0 0 0;
+    }
+    .img__waterfallsvillge{
+      width: 49.6%;
+      height: 440px;
+      padding: 5px 0 0 0;
+    }
+    .img__greenplace{
+      width: 49.6%;
+      height: 440px;
+      padding: 5px 0 0 0;
+    }
+    .img__greenvillage{
+      width: 49.88%;
+      height: 440px;
+      padding: 5px 0 0 3px;
+    }
+  }
+  @media screen and (max-width: 1199px) {
+    .maincontainer {
+      width: 960px;
+    }
+    /*IMG RESPONSIVE*/
+    .img__village {
+      width: 49.6%;
+      height: 420px;
+      padding: 5px 0 0 0;
+    }
+    .img__mountainlake {
+      width: 49.6%;
+      height: 420px;
+      padding: 5px 0 0 0;
+  }
+    .img__trainvillage{
+      width: 49.6%;
+      height: 420px;
+      padding: 5px 0 0 0;
+    }
+    .img__waterfallsvillge{
+      width: 49.6%; 
+      height: 420px;
+      padding: 5px 0 0 0;
+    }
+    .img__greenplace{
+      width: 49.6%;
+      height: 420px;
+      padding: 5px 0 0 0;
+    }
+    .img__greenvillage{
+      width: 49.6%;
+      height: 420px;
+      padding: 5px 0 0 0px;
+    }
+    /*
+    .nature {
+      height: 614px;
+    }
+    .mountain-Alp {
+      height: 614px;
+    }
+    .waterfallcastle {
+      height: 614px;
+    }
+    .title-reason5__img {
+      height: 614px;
+    }
+    .title-reason6__img {
+      height: 614px;
+    }
+    .title-reason7__img {
+      height: 614px;
+    }
+    .title-reason8__img {
+      height: 614px;
+    }
+    .title-reason9__img {
+      height: 614px;
+    }
+    .title-reason10__img {
+      height: 614px;
+    }
+    */
+  }
+  @media screen and (max-width: 991px) {
+    .maincontainer {
+      width: 720px;
+    }
+    .title {
+      z-index: 1;
+    }
+    .box-info__title {
+      background-color: #1110105d;
+      color: aliceblue;
+      padding: 190px 50px 170px 50px;
+    }
+    /*IMG RESPONSIVE*/
+    .img__village {
+      width: 49.6%;
+      height: 370px;
+      padding: 5px 0 0 0;
+    }
+    .img__mountainlake {
+      width: 49.6%;
+      height: 370px;
+      padding: 5px 0 0 0;
+  }
+    .img__trainvillage{
+      width: 49.6%;
+      height: 370px;
+      padding: 5px 0 0 0;
+    }
+    .img__waterfallsvillge{
+      width: 49.6%; 
+      height: 370px;
+      padding: 5px 0 0 0;
+    }
+    .img__greenplace{
+      width: 49.6%;
+      height: 370px;
+      padding: 5px 0 0 0;
+    }
+    .img__greenvillage{
+      width: 49.6%;
+      height: 370px;
+      padding: 5px 0 0 0px;
+    }
+    .energi {
+      height: 480px;
+    }
+    .nature {
+      height: 480px;
+    }
+    .mountain-Alp {
+      height: 480px;
+    }
+    .waterfallcastle {
+      height: 480px;
+    }
+    .title-reason5__img {
+      height: 480px;
+    }
+    .title-reason6__img {
+      height: 480px;
+    }
+    .title-reason7__img {
+      height: 480px;
+    }
+    .title-reason8__img {
+      height: 480px;
+    }
+    .title-reason9__img {
+      height: 480px;
+    }
+    .title-reason10__img {
+      height: 480px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .maincontainer {
+      width: 540px;
+    }
+    .title { 
+      height: 400px;
+      background-attachment: none;
+    }
+    .box-info__title {
+      font-size: 40px;
+      height: 100%;
+      color: aliceblue;
+      padding: 100px 10px 50px 10px ;
+    }
+    /*IMG RESPONSIVE*/
+    .img__village {
+      width: 100%;
+      padding: 5px 0 0 0;
+    }
+    .img__mountainlake {
+      width: 100%;
+      height: 370px;
+      padding: 5px 0 0 0;
+  }
+    .img__trainvillage{
+      width: 100%;
+      height: 370px;
+      padding: 5px 0 0 0;
+    }
+    .img__waterfallsvillge{
+      width: 100%; 
+      height: 370px;
+      padding: 5px 0 0 0;
+    }
+    .img__greenplace{
+      width: 100%;
+      height: 370px;
+      padding: 5px 0 0 0;
+    }
+    .img__greenvillage{
+      width: 100%;
+      height: 370px;
+      padding: 5px 0 0 0px;
+    }
+    .energi {
+      height: 350px;
+    }
+    .nature {
+      height: 350px;
+    }
+    .mountain-Alp {
+      height: 350px;
+    }
+    .waterfallcastle {
+      height: 350px;
+    }
+    .title-reason5__img {
+      height: 350px;
+    }
+    .title-reason6__img {
+      height: 350px;
+    }
+    .title-reason7__img {
+      height: 350px;
+    }
+    .title-reason8__img {
+      height: 350px;
+    }
+    .title-reason9__img {
+      height: 350px;
+    }
+    .title-reason10__img {
+      height: 350px;
+    }
+  }
+  @media screen and (max-width: 575px) {
+    .maincontainer {
+      width: 100%;
+    }
+    .list {
+      display: none;
+    }
+  }
+
+  
